@@ -1,4 +1,4 @@
-module luna/gameworks/echo
+module luna.gameworks/echo
 
 go 1.24.3
 
