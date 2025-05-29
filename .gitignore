@@ -1,0 +1,29 @@
+# Binaries for programs
+*.exe
+*.dll
+*.so
+*.dylib
+*.rpm
+*.deb
+*.apk
+*.bin
+*.wasm
+
+# Test binary, generated with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically `go test -coverprofile cover.out`
+cover.out
+
+# Depends on the operating system.
+# Linux
+/build/
+/dist/
+
+# macOS
+/build/
+/dist/
+
+# Windows
+/build/
+/dist
