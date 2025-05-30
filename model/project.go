@@ -19,4 +19,7 @@ type Project struct {
 	ProjectType  projectType `json:"project_type"`
 	CollectiveID uuid.UUID   `gorm:"type:uuid;not null" json:"collective_id"`
 	Collective   Collective  `json:"collective"`
+	Glossary     string      `json:"glossary"`
 }
+
+// TODO: glossary should be a whole new feature, not just a string
